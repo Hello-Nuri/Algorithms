@@ -1,0 +1,6 @@
+Input: nums = [5,1,4,1], indexDifference = 2, valueDifference = 4
+Output: [0,3]
+Explanation: In this example, i = 0 and j = 3 can be selected.
+abs(0 - 3) >= 2 and abs(nums[0] - nums[3]) >= 4.
+Hence, a valid answer is [0,3].
+[3,0] is also a valid answer.
