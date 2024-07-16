@@ -1,5 +1,8 @@
 class Solution:
     def getEncryptedString(self, s: str, k: int) -> str:
+        # modulo를 사용해볼 것
+        # i 번째에서 k 만큼 떨어진 위치의 알파벳을 answer에 추가할 것
+        # 이 때, 범위를 넘어가는 값은 modulo 연산을 이용해줄 것.
         answer = ""
         
         for i in range(len(s)):
