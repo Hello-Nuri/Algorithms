@@ -1,0 +1,12 @@
+class Solution:
+    def generateKey(self, num1: int, num2: int, num3: int) -> int:
+        # zip
+        answer = ''
+        str_1 = str(num1).zfill(4)
+        str_2 = str(num2).zfill(4)
+        str_3 = str(num3).zfill(4)
+        for chr_1,chr_2,chr_3 in zip(str_1,str_2,str_3):
+            min_value = min(int(chr_1),int(chr_2),int(chr_3))
+            answer += str(min_value)
+            final = int(answer)
+        return final
