@@ -1,0 +1,9 @@
+class Solution:
+    def getSneakyNumbers(self, nums: List[int]) -> List[int]:
+        dict_nums = {}
+        answer = []
+        for item in nums:
+            dict_nums[item] = dict_nums.get(item, 0) + 1
+            if dict_nums[item] == 2:
+                answer.append(item)
+        return answer
