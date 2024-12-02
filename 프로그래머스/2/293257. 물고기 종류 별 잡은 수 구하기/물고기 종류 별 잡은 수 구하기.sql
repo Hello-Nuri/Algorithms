@@ -14,4 +14,3 @@ GROUP BY
 
 ORDER BY
     FISH_COUNT DESC
-    
