@@ -1,6 +1,6 @@
 # [level 2] 중성화 여부 파악하기 - 59409 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/59409#qna) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/59409) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@ Empty
 
 ### 제출 일자
 
-2024년 12월 03일 11:19:57
+2025년 02월 20일 18:21:23
 
 ### 문제 설명
 
