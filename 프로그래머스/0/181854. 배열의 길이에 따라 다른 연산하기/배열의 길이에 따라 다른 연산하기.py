@@ -2,11 +2,11 @@ def solution(arr, n):
     result = []
     if len(arr) % 2 == 0:
         for i in range(len(arr)):
-            if i % 2 != 0: 
+            if i % 2 != 0:
                 result.append(arr[i]+n)
             else:
                 result.append(arr[i])
-    if len(arr) % 2 != 0:
+    else:
         for i in range(len(arr)):
             if i % 2 == 0:
                 result.append(arr[i]+n)
